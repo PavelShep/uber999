@@ -1,3 +1,6 @@
+$main-color: #1eacc7
+$second-color: #ff5656
+
 * 
 	font-family: 'Roboto', sans-serif 
 header 
@@ -7,7 +10,7 @@ nav
 	width: 100% 
 	height: 50px 
 	background-color: #212121 
-	z-index: 2 
+	z-index: 3 
 .menu 
 	padding: 13px 70px 
 	margin: 0 
@@ -62,7 +65,7 @@ nav
 		width: 172px 
 		height: 46px 
 		border: 4px 
-		background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%) 
+		background: linear-gradient(0deg, main-color 0%, #4CE2FF 100%) 
 		box-shadow: 0px -3px 0px 0px rgba(0, 0, 0, 0.12) inset 
 		color: #FFF 
 		text-align: center 
@@ -107,7 +110,7 @@ nav
 		width: 250px 
 		height: 65px 
 		border: 4px 
-		background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%) 
+		background: linear-gradient(0deg, main-color 0%, #4CE2FF 100%) 
 		box-shadow: 0px -3px 0px 0px rgba(0, 0, 0, 0.12) inset 
 		color: #FFF 
 		text-align: center 
@@ -130,13 +133,13 @@ nav
 			margin-right: 26px 
 			width: 113px 
 			height: 113px 
-			background-color: #1eacc7 
+			background-color: main-color 
 			border-radius: 100% 
 		.reasons_descr 
 			width: 343px 
 			.reasons_subtitle 
 				line-height: 21px 
-				color: #1eacc7 
+				color: main-color 
 				font-size: 17px 
 				font-weight: 400 
 			.reasons_text 
@@ -144,34 +147,47 @@ nav
 				font-size: 15px 
 				font-weight: 300 
 				line-height: 21px 
-.label 
-	margin: 0 auto 
-	height: 24px 
-	width: 112px 
-	padding: 5px 12px 
-	background-color: #000000 
-	color: #ffffff 
-	font-size: 11px 
-	font-weight: 300 
-	text-transform: uppercase 
-	text-align: center 
-.title 
-	margin-bottom: 0 
-	margin-top: 38px 
-	color: #222222 
-	font-size: 38px 
-	font-weight: 700 
-	text-transform: uppercase 
-	text-align: center 
+.label
+	position: relative
+	margin: 0 auto
+	height: 24px
+	width: 112px
+	padding: 5px 12px
+	background-color: #000000
+	color: #ffffff
+	font-size: 11px
+	font-weight: 300
+	text-transform: uppercase
+	text-align: center
+	z-index: 2
+	&_white 
+		background-color: #fff
+		color: #000
+
+.title
+	position: relative
+	margin-bottom: 0
+	margin-top: 38px
+	color: #222222
+	font-size: 38px
+	line-height: 38px
+	font-weight: 700
+	text-transform: uppercase
+	text-align: center
+	z-index: 2
+	&_white 
+		color: #fff
 
 .subtitle
-    margin-top: 19px
-    color: #222
-    text-align: center
-    font-size: 17px
-    font-style: normal
-    font-weight: 400
-    line-height: 21px
+	position: relative
+	margin-top: 19px
+	color: #222222
+	font-size: 17px
+	font-weight: 400
+	text-align: center
+	z-index: 2
+	&_white 
+		color: #fff
 
 .mobile
     min-height: 864px
@@ -220,6 +236,31 @@ nav
             background: #000000
             border-radius: 100%
             cursor: pointer
+
+.choice 
+	position: relative
+	min-height: 895px
+	padding: 57px 0 138px 0
+	background: url('../img/bg/mobile_app.png') center (center / cover) no-repeat
+	&_img 
+		position: relative
+		display: block
+		margin: 56px auto 0 auto
+		z-index: 2
+	&_descr 
+		text-align: center
+		color: #222222
+		font-size: 17px
+		font-weight: 300
+		line-height: 24px
+	.black 
+		position: absolute 
+		top: 0
+		left: 0
+		height: 499px
+		width: 100%
+		background-color: #070716
+		z-index: 1
 
         
 
