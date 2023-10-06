@@ -548,3 +548,76 @@ footer a:hover {
     width: 100%;
   }
 }
+@media (max-width: 991px) {
+  .container .title {
+    font-size: 28px;
+  }
+  .container .menu_item {
+    padding-right: 15px;
+  }
+  .container .menu_link {
+    font-size: 10px;
+  }
+  .container .subheader_logo img {
+    width: 100%;
+  }
+  .container .subheader_official {
+    font-size: 11px;
+  }
+  .container .subheader_phone {
+    font-size: 18px;
+  }
+  .container .subheader_btn {
+    margin-top: 21px;
+    height: 40px;
+    width: 100%;
+  }
+  .container .promo_header {
+    font-size: 40px;
+  }
+  .container .promo_subheader {
+    font-size: 30px;
+  }
+  .container .reasons_block {
+    flex-direction: column;
+    align-items: center;
+  }
+  .container .reasons_round {
+    margin-right: 0;
+  }
+  .container .reasons_descr {
+    width: 300px;
+    margin-top: 20px;
+  }
+  .container .mobile_item {
+    width: 210px;
+  }
+  .container .mobile_item_subtitle {
+    font-size: 20px;
+  }
+  .container .choice {
+    min-height: 800px;
+  }
+  .container .choice_img {
+    width: 100%;
+  }
+  .container .world {
+    min-height: 650px;
+  }
+  .footer_wrapper {
+    flex-wrap: wrap;
+  }
+  .footer_wrapper > div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .footer_wrapper > div:nth-child(1) {
+    width: 100%;
+  }
+  .footer_wrapper > div:nth-child(3) {
+    width: 100%;
+    justify-content: center;
+  }
+}
