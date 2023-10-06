@@ -31,6 +31,9 @@ nav {
   border-right: 2px dotted black;
   padding-right: 28px;
 }
+.menu .menu_item:last-child {
+  border-right: none;
+}
 
 .subheader {
   position: absolute;
@@ -57,7 +60,6 @@ nav {
   font-size: 12px;
   font-style: normal;
   font-weight: 300;
-  text-align: right;
   margin-top: 19px;
 }
 .subheader .subheader_phone {
@@ -70,6 +72,7 @@ nav {
   font-weight: 400;
   text-transform: uppercase;
   line-height: 12px;
+  text-align: right;
 }
 .subheader .subheader_btn {
   margin-top: 19px;
@@ -149,13 +152,13 @@ nav {
 .reasons {
   padding: 71px 0 65px 0;
 }
-.reasons .reasons_block {
+.reasons_block {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 35px;
 }
-.reasons .reasons_block .reasons_round {
+.reasons_round {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -165,16 +168,16 @@ nav {
   background-color: #1eacc7;
   border-radius: 100%;
 }
-.reasons .reasons_block .reasons_descr {
+.reasons_descr {
   width: 343px;
 }
-.reasons .reasons_block .reasons_descr .reasons_subtitle {
+.reasons_descr_subtitle {
   line-height: 21px;
   color: #1eacc7;
   font-size: 17px;
   font-weight: 400;
 }
-.reasons .reasons_block .reasons_descr .reasons_text {
+.reasons_descr_text {
   color: #202020;
   font-size: 15px;
   font-weight: 300;
@@ -496,4 +499,52 @@ footer a:hover {
   margin-top: 19px;
   text-transform: uppercase;
   text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .container .menu_link {
+    font-size: 13px;
+  }
+  .container .menu_item {
+    padding-right: 20px;
+  }
+  .container .promo_header {
+    font-size: 50px;
+  }
+  .container .reasons_block {
+    align-items: flex-start;
+  }
+  .container .reasons_descr {
+    width: 300px;
+  }
+  .container .mobile_item {
+    width: 290px;
+  }
+  .container .mobile_item_subtitle {
+    font-size: 22px;
+  }
+  .container .choice {
+    padding: 55px 0;
+    min-height: 840px;
+  }
+  .footer_wrapper > div {
+    width: 50%;
+  }
+  .footer_wrapper > div:nth-child(1) {
+    width: 25%;
+  }
+  .footer_wrapper > div:nth-child(3) {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .footer_mobile {
+    display: flex;
+  }
+  .footer_mobile a {
+    margin: 0 3px;
+  }
+  .footer_mobile a img {
+    width: 100%;
+  }
 }
