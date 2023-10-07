@@ -175,13 +175,13 @@ nav {
 .reasons_descr {
   width: 343px;
 }
-.reasons_descr_subtitle {
+.reasons_subtitle {
   line-height: 21px;
   color: #1eacc7;
   font-size: 17px;
   font-weight: 400;
 }
-.reasons_descr_text {
+.reasons_text {
   color: #202020;
   font-size: 15px;
   font-weight: 300;
@@ -505,6 +505,10 @@ footer a:hover {
   text-align: center;
 }
 
+.container .xs-visible {
+  display: none;
+}
+
 @media (max-width: 1200px) {
   .container .menu_link {
     font-size: 13px;
@@ -681,5 +685,34 @@ footer a:hover {
   }
   .container .hamburger_active span:nth-child(3) {
     transform: translateY(3px) rotate(45deg);
+  }
+  .container .xs-hidden {
+    display: none;
+  }
+  .container .xs-visible {
+    display: block;
+  }
+  .container .promo_header {
+    line-height: 45px;
+    font-size: 35px;
+  }
+  .subheader .container .subheader_phone {
+    display: block;
+    margin-top: 10px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  .subheader .container .subheader_btn {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 4px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
   }
 }
