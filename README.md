@@ -16,7 +16,7 @@ You can see a Figma template [here](https://www.figma.com/file/ivgb9OfADjPvRowi3
 
 ## Demo
 
-You can see a live demo of this page [here](#).
+You can see a live demo of this page [here](https://pavelshep.github.io/uber999/).
 
 ## Features
 
