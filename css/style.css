@@ -27,6 +27,10 @@ nav {
   font-style: normal;
   font-weight: 300;
 }
+.menu .menu_link:hover {
+  text-decoration: none;
+  color: #1eacc7;
+}
 .menu .menu_item {
   border-right: 2px dotted black;
   padding-right: 28px;
@@ -725,6 +729,14 @@ footer a:hover {
   }
   header .container .menu {
     width: 85%;
+  }
+  header .container .menu_item {
+    width: 100%;
+    text-align: center;
+    padding: 4px 0;
+  }
+  header .container .menu_link {
+    display: block;
   }
   .subheader {
     height: 60px;
