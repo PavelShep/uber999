@@ -1,6 +1,6 @@
 # Uber Partners Landing Page
 
-A simple landing page built with HTML, SASS, vanilla JavaScript, and utilizing the Bootstrap 4 grid system.
+Experience the future of transportation with my simple landing page. Crafted with HTML, SASS, and vanilla JavaScript, my responsive design seamlessly adapts to various devices, ensuring a smooth user experience on desktops, tablets, and smartphones. Explore my cutting-edge interface, powered by the Bootstrap 4 grid system, and embark on a journey towards innovation and convenience.
 
 ## Table of Contents
 
